@@ -1,0 +1,42 @@
+.fullcard {
+  padding: 0px 10px;
+}
+
+h5 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+.immgg {
+  height: 180px;
+}
+
+.cardtext {
+  text-align: center;
+}
+
+.bttn {
+  margin: auto;
+}
+
+.cardbody {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+  .immgg {
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .immgg {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .immgg {
+    height: 180px;
+  }
+}
